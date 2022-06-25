@@ -1,0 +1,100 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   }
+   .container{
+   background-image: url("./images/bg-intro-desktop.png");
+   width: 1440px;
+   background-color: hsl(0, 100%, 74%) ;
+   height:750px;
+   display: flex;
+   flex-direction: row;
+   padding: 100px;
+   font-family: Poppins;
+   
+   
+   }
+   .holder{
+    padding-left: 100px;
+    padding-top: 20px;
+   }
+   .content2{
+    background-color:hsl(248, 32%, 49%) ;
+    width: 500px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+   
+   }
+   .see{
+    color: white;
+    font-size: 16px;
+    padding-left: 70px;
+   
+    
+   }
+   .learn{
+    color: white;
+    font-size: 40px;
+    padding-top: 170px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+   }
+   .cont2{
+    padding-top:15px;
+   }
+   .mcontent{
+    background-color: white;
+    width:500px;
+    border-radius: 15px;
+    margin-top: 20px;
+    height:500px;
+    padding-top: 30px;
+    
+   }
+   a{
+    color:hsl(0, 100%, 74%);
+    text-decoration: none;
+    padding-left: 6px;
+   }
+   .click{
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 10px;
+   }
+   .input1, .input2, .input3, .input4, #submit{
+    width: 400px;
+    height: 50px;
+    padding-top:15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style:solid 1px;
+    border-color: hsl(248, 32%, 49%) ;
+    border-width: thin;
+    margin-left: 50px;
+    padding-left: 25px;
+   }
+   .input1, .input2, .input3, .input4, #submit :hover{
+    color:black;
+   }
+   #submit{
+    background-color:hsl(154, 59%, 51%);
+    color: white;
+    border-style: none;
+    padding-bottom: 15px;
+   }
+   @media screen and (max-width: 375px) {
+    .container {
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      background-image: url("./images/bg-intro-mobile.png");
+      background-color: hsl(0, 100%, 74%) ;
+      
+    }
+  }
+  
